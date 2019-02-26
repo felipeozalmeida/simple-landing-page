@@ -8,3 +8,11 @@ body{
 h1{
     font-size: 2rem;
 }
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: purple;
+}

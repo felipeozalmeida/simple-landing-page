@@ -9,10 +9,62 @@ h1{
     font-size: 2rem;
 }
 
-a{
+.cta{
+    display: inline-block;
     color: red;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid red;
+    background-color: transparent;
+    transition:
+        background-color .4s ease-in-out,
+        border-color .4s ease-in-out,
+        color .4s ease-in-out;
 }
 
-a:hover{
-    color: purple;
+.cta:hover{
+    background-color: red;
+    border-color: red;
+    color: #ffffff;
+}
+
+#banner{
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#footer{
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+}
+
+.card{
+    padding: 50px;
+    font-weight: lighter;
+}
+
+#footer a {
+    color: lightgrey;
+    font-size: 15px;
+}
+#footer a:hover {
+    color: white;
 }

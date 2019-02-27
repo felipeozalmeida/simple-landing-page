@@ -18,9 +18,9 @@ h1{
     border: 1px solid red;
     background-color: transparent;
     transition:
-        background-color .4s ease-in-out,
-        border-color .4s ease-in-out,
-        color .4s ease-in-out;
+        background-color .2s ease-in-out,
+        border-color .2s ease-in-out,
+        color .2s ease-in-out;
 }
 
 .cta:hover{
@@ -33,7 +33,7 @@ h1{
     text-align: center;
     background-image: url("images/background.jpg");
     background-size: cover;
-    padding: 150px;
+    padding: 50px 16px;
     color: white;
     text-shadow: 1px 1px 10px black;
 }
@@ -59,12 +59,20 @@ h1{
 .card{
     padding: 50px;
     font-weight: lighter;
+    transition: transform 200ms linear;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 #footer a {
-    color: lightgrey;
+    color: red;
     font-size: 15px;
+    transition:
+        color .2s ease-in-out;
 }
+
 #footer a:hover {
     color: white;
 }
